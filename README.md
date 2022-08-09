@@ -45,7 +45,7 @@ on: [push]
 env:
   TenantID: ${{ secrets.TENANT_ID }}
   AppID: ${{ secrets.APP_ID }}
-  Subscription: ${{ secrets.AUBSCRIPTION_ID }}
+  Subscription: ${{ secrets.SUBSCRIPTION_ID }}
   AppSecret: ${{ secrets.APP_SECRET }}
 
 jobs:
